@@ -11,10 +11,9 @@ AllCops:
   # Include gemspec and Rakefile
   Include:
     - '**/*.gemspec'
-    - 'app/**/*'
+    # - 'app/**/*'
   Exclude:
-    - 'app/assets/**/*'
-    - 'app/views/**/*'
+    - 'test/**/*'
     - 'vendor/**/*'
     - 'config/unicorn.rb'
     - 'bin/*'
