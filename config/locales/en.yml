@@ -1,4 +1,12 @@
 en:
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Confirmation"
+        submit: "Sign up"
   author: "Michael Hartl"
   about: "About"
   the: "The"
@@ -36,5 +44,12 @@ en:
       now: "Sign up now"
       signup: "Sign Up"
       signup_page: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      pass: "Password"
+      passConfirm: "Confirmation"
+      create: "Create my account"
+    show:
+      welcome: "Welcome to the Sample App!"
 
   
