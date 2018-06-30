@@ -51,5 +51,11 @@ en:
       create: "Create my account"
     show:
       welcome: "Welcome to the Sample App!"
+  session:
+    new:
+      signin: "Sign in"
+      signup: "Signup now!"
+    create:
+      erro: "Invalid email/password combination"
 
   
