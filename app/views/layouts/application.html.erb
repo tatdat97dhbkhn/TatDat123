@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= full_title(yield(:title)) %></title>
-    <%= render 'layouts/rails_default' %>
-    <%= render 'layouts/shim' %>
+    <title><%= full_title yield(:title) %></title>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
   </head>
   <body>
-    <%= render 'layouts/header' %>
-    <div class="container">
+    <p style = "float : right;">
+      <%= link_to_unless I18n.locale == :en, image_tag("en.png"), locale: :en %>
+      <%= link_to_unless I18n.locale == :vi, image_tag("vn.png"), locale: :vi %>
+    </p>
+    <%= render "layouts/header" %>
+    <div class = "container">
       <%= yield %>
-      <%= render 'layouts/footer' %>
+      <%= render "layouts/footer" %>
     </div>
   </body>
 </html>
