@@ -1,4 +1,12 @@
 vi:
+  activerecord:
+    attributes:
+      user:
+        name: "Họ tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        submit: "Đăng ký"
   author: "Michael Hartl"
   the: "Cuốn sách"
   by: "được viết bởi"
@@ -36,3 +44,14 @@ vi:
       now: "Đăng ký ngay"
       signup: "Đăng ký"
       signup_page: "Trang đăng ký tài khoản mới."
+      name: "Họ tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      passConfirm: "Nhập lại mật khẩu"
+      create: "Tạo tài khoản mới"
+    show:
+      welcome: "Chào mừng tới Sample App!"
+  shared:
+    _eror_messages:
+      form: "The form contains"
+  
