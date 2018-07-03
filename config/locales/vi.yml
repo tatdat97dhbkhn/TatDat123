@@ -12,12 +12,15 @@ vi:
   by: "được viết bởi"
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
+  login: "Đăng nhập"
+  profile: "Trang cá nhân"
   static_pages:
     home:
       home: "Trang chủ"
       welcome: "Chào mừng bạn đến với Sample App"
       home_page: "Đây là trang chủ của Sample App"
       now: "Đăng ký ngay"
+      no: "Trang cá nhân"
       end: "."
     help:
       help: "Trợ giúp"
@@ -54,4 +57,9 @@ vi:
   shared:
     _eror_messages:
       form: "The form contains"
-  
+  session:
+    new:
+      signin: "Đăng nhập"
+      signup: "Đăng ký ngay !"
+    create:
+      erro: "Email hoặc mật khẩu không hợp lệ !"
