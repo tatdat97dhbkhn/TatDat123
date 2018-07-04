@@ -3,3 +3,5 @@ length :
   max_email : 255
   min_pass : 6
 size: 80
+img:
+  size: 50
