@@ -14,6 +14,10 @@ vi:
   ruby_help: "Rails Tutorial help page"
   login: "Đăng nhập"
   profile: "Trang cá nhân"
+  danger: "Không tìm thấy địa chỉ email"
+  empty: "không được để trống"
+  danger: "Đã hết hạn đặt lại mật khẩu"
+  password_reset: "Đặt lại mật khẩu"
   hi: "Xin chào!"
   account_activation: "Xác thực tài khoản"
   welcome: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
@@ -94,6 +98,30 @@ vi:
       remember: "Ghi nhớ tài khoản trên máy tính này"
       new: "Tạo tài khoản mới?"
       pass: "Mật khẩu"
+      forgot: "Quên mật khẩu"
     create:
       errors: "Email hoặc mật khẩu không hợp lệ !"
       message: "Tài khoản chưa được kích hoạt hãy kiểm tra email của bạn để biết liên kết kích hoạt."
+  password_resets:
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      confirmation: "Xác nhận"
+      update_password: "Cập nhật mật khẩu"
+    new:
+      forgot_password: "Quên mật khẩu"
+      submit: "Gửi đi"
+    create:
+      infomation: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+    update:
+      success: "Mật khẩu đã được đặt lại."
+  user_mailer:
+    account_activation:
+      account_activation: "Xác thực tài khoản"
+    password_reset:
+      password_reset: "Đặt lại mật khẩu"
+      message1: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      message2: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      message3: |
+        Nếu bạn không yêu cầu đặt lại mật khẩu, 
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ.
+      link: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
