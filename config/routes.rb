@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get "session/new"
   resources :users
+  resources :account_activations, only: [:edit]
   scope "(:locale)", :locale => /en|vi/ do
     root "static_pages#home"
     get "/signup", to: "users#new"
