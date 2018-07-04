@@ -61,5 +61,8 @@ vi:
     new:
       signin: "Đăng nhập"
       signup: "Đăng ký ngay !"
+      remember: "Ghi nhớ tài khoản trên máy tính này"
+      new: "Tạo tài khoản mới?"
+      pass: "Mật khẩu"
     create:
       erro: "Email hoặc mật khẩu không hợp lệ !"

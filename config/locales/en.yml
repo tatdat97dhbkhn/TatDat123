@@ -55,6 +55,9 @@ en:
     new:
       signin: "Sign in"
       signup: "Signup now!"
+      remember: "Remember me on this computer"
+      new: "New user?"
+      pass: "Password"
     create:
       erro: "Invalid email/password combination"
 
