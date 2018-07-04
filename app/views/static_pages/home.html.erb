@@ -1,3 +1,19 @@
+<% if logged_in? %>
+  <div class="row" style="margin-top: 30px;">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".micropost_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
 <div class="center jumbotron">
   <h1><%= t ".welcome" %></h1>
   <h2>
@@ -17,3 +33,4 @@
   "https://www.tutorialspoint.com/ruby/index.htm" %>
 <%= link_to image_tag("kitten.jpg", alt: "Kitten logo",id:"kitten"),
   "http://rubyonrails.org/" %>
+<% end %>

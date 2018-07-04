@@ -1,9 +1,10 @@
-length :
-  max_name : 50
-  max_email : 255
-  min_pass : 6
-size: 80
-img:
+length:
+  max_name: 50
+  max_email: 255
+  min_pass: 6
   size: 50
+  resize: 400
 time:
   hours: 2
+micropost:
+  max_content: 140
