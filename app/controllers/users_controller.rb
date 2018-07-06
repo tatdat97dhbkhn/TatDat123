@@ -11,16 +11,18 @@ class UsersController < ApplicationController
     @users = User.paginate(page: params[:page], per_page: 5)
   end
 
-  def show; end
+  def show
+    redirect_to(root_url) && return unless @user
+  end
 
   def edit; end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "user.show.welcome"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".check"
+      redirect_to root_url
     else
       render :new
     end

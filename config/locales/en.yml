@@ -11,6 +11,9 @@ en:
   about: "About"
   the: "The"
   by: "by"
+  hi: "Hi!"
+  account_activation: "Account Activation!"
+  welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
   ruby: "Ruby on Rails Tutorial"
   ruby_help: "Rails Tutorial help page"
   layouts:
@@ -44,10 +47,16 @@ en:
         Contact the Ruby on Rails Tutorial about the sample app at the
       contact_page: "contact page"
     new: "News"
+  account_activations:
+    edit:
+      danger: "Invalid activation link"
+      success: "Account activated!"
   user:
     show:
       welcome: "Welcome to the Sample App!"
   users:
+    create:
+      check: "Please check your email to activate your account."
     new:
       now: "Sign up now"
       signup: "Sign Up"
@@ -82,6 +91,8 @@ en:
       new: "New user?"
       pass: "Password"
     create:
-      erro: "Invalid email/password combination"
+      errors: "Invalid email/password combination"
+      message: "Account not activated. Check your email for the activation link."
+      
 
   

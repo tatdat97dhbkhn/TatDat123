@@ -14,6 +14,9 @@ vi:
   ruby_help: "Rails Tutorial help page"
   login: "Đăng nhập"
   profile: "Trang cá nhân"
+  hi: "Xin chào!"
+  account_activation: "Xác thực tài khoản"
+  welcome: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
   layouts:
     application:
       app: "Ruby on Rails Tutorial Sample App"
@@ -45,10 +48,16 @@ vi:
       contact_ruby: "Tìm hiểu về cuốn Ruby on Rails để biết thêm về Sample App tại"
       contact_page: "trang"
     new: "Tin tức"
+  account_activations:
+    edit:
+      danger: "Link kích hoạt không hợp lệ"
+      success: "Tài khoản đã được kích hoạt"
   user:
     show:
       welcome: "Chào mừng tới Sample App!"
   users:
+    create:
+      check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     new:
       now: "Đăng ký ngay"
       signup: "Đăng ký"
@@ -86,4 +95,5 @@ vi:
       new: "Tạo tài khoản mới?"
       pass: "Mật khẩu"
     create:
-      erro: "Email hoặc mật khẩu không hợp lệ !"
+      errors: "Email hoặc mật khẩu không hợp lệ !"
+      message: "Tài khoản chưa được kích hoạt hãy kiểm tra email của bạn để biết liên kết kích hoạt."
