@@ -14,13 +14,17 @@ vi:
   ruby_help: "Rails Tutorial help page"
   login: "Đăng nhập"
   profile: "Trang cá nhân"
+  layouts:
+    application:
+      app: "Ruby on Rails Tutorial Sample App"
+    header:
+      users: "Thành viên"
   static_pages:
     home:
       home: "Trang chủ"
       welcome: "Chào mừng bạn đến với Sample App"
       home_page: "Đây là trang chủ của Sample App"
       now: "Đăng ký ngay"
-      no: "Trang cá nhân"
       end: "."
     help:
       help: "Trợ giúp"
@@ -38,11 +42,13 @@ vi:
       tutorial: "Đây là 1 ví dụ trong cuốn sách này."
     contact:  
       contact: "Liên hệ"
-      contact_ruby: >
-        Tìm hiểu về cuốn Ruby on Rails để biết thêm về Sample App tại
+      contact_ruby: "Tìm hiểu về cuốn Ruby on Rails để biết thêm về Sample App tại"
       contact_page: "trang"
     new: "Tin tức"
   user:
+    show:
+      welcome: "Chào mừng tới Sample App!"
+  users:
     new:
       now: "Đăng ký ngay"
       signup: "Đăng ký"
@@ -54,6 +60,21 @@ vi:
       create: "Tạo tài khoản mới"
     show:
       welcome: "Chào mừng tới Sample App!"
+    edit:
+      edit: "Chỉnh sửa user"
+      save: "Lưu thay đổi"
+      update: "Cập nhật thông tin cá nhân"
+      change: "Thay đổi"
+      login: "Vui lòng đăng nhập"
+    index:
+      all: "Tất cả thành viên"
+      signin: "Vui lòng đăng nhập"
+    destroy:
+      delete: "Xóa thành công"
+    update:
+      updated: "Cập nhật thông tin thành công"
+    user:
+      sure: "Bạn có muốn tiếp tục xóa"
   shared:
     _eror_messages:
       form: "The form contains"
