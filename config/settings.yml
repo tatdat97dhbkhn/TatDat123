@@ -5,3 +5,5 @@ length :
 size: 80
 img:
   size: 50
+time:
+  hours: 2
