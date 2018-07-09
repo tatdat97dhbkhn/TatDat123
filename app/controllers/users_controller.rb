@@ -13,6 +13,7 @@ class UsersController < ApplicationController
 
   def show
     redirect_to(root_url) && return unless @user
+    @microposts = @user.microposts.paginate page: params[:page]
   end
 
   def edit; end
@@ -56,11 +57,11 @@ class UsersController < ApplicationController
   end
 
   def correct_user
-    redirect_to(root_url) unless current_user?(@user)
+    redirect_to root_url unless current_user? @user
   end
 
   def admin_user
-    redirect_to(root_url) unless current_user.admin?
+    redirect_to root_url unless current_user.admin?
   end
 
   def find_user

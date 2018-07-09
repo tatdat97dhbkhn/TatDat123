@@ -1,4 +1,5 @@
 vi:
+  alert: "Kích thước file < 5MB"
   activerecord:
     attributes:
       user:
@@ -7,6 +8,28 @@ vi:
         password: "Mật khẩu"
         password_confirmation: "Nhập lại mật khẩu"
         submit: "Đăng ký"
+  microposts:
+    create:
+      created: "Tạo thành công"
+      please_login: "Vui lòng đăng nhập!"
+    destroy:
+      deleted: "Xóa thành công"
+    picture_size:
+      picture_size: "Độ lớn nên < 5MB"
+    micropost:
+      delete: "Xóa"
+      post: "Đã đăng"
+      ago: "trước"
+  shared:
+    micropost_form:
+      placeholder: "Soạn micropost mới ..."
+      max_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
+      post: "Đăng bài"
+    error_messages:
+      count_errors: "Có chứa"
+      form: "The form contains"
+    user_info:
+      my_profile: "Thông tin cá nhân"      
   author: "Michael Hartl"
   the: "Cuốn sách"
   by: "được viết bởi"
@@ -33,6 +56,7 @@ vi:
       home_page: "Đây là trang chủ của Sample App"
       now: "Đăng ký ngay"
       end: "."
+      micropost_feed: "Nguồn cấp dữ liệu Micropost"
     help:
       help: "Trợ giúp"
       get_help_on: "Tìm kiếm trợ giúp trên trang"
@@ -73,6 +97,7 @@ vi:
       create: "Tạo tài khoản mới"
     show:
       welcome: "Chào mừng tới Sample App!"
+      microposts: "Bài đăng"
     edit:
       edit: "Chỉnh sửa user"
       save: "Lưu thay đổi"
@@ -88,9 +113,6 @@ vi:
       updated: "Cập nhật thông tin thành công"
     user:
       sure: "Bạn có muốn tiếp tục xóa"
-  shared:
-    _eror_messages:
-      form: "The form contains"
   session:
     new:
       signin: "Đăng nhập"

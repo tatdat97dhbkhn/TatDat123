@@ -7,6 +7,28 @@ en:
         password: "Password"
         password_confirmation: "Confirmation"
         submit: "Sign up"
+  alert: "Less be than 5MB"
+  microposts:
+    create:
+      created: "Micropost created!"
+      please_login: "Please log in."
+    destroy:
+      deleted: "Micropost deleted"
+    picture_size:
+      picture_size: "should be less than 5MB"
+    micropost:
+      delete: "Delete"
+      post: "Posted"
+      ago: "ago."
+  shared:
+    micropost_form:
+      placeholder: "Compose new micropost..."
+      max_size: "Maximum file size is 5MB. Please choose a smaller file."
+      post: "Post"
+    error_messages:
+      count_errors: "The form contains"
+    user_info:
+      my_profile: "view my profile"
   author: "Michael Hartl"
   about: "About"
   the: "The"
@@ -32,6 +54,7 @@ en:
       home_page: "This is the home page for the"
       now: "Sign up now"
       end: "sample application."
+      micropost_feed: "Micropost Feed"
     help: 
       help: "Help"
       get_help_on: "Get help on the Ruby on Rails Tutorial at the"
@@ -72,6 +95,7 @@ en:
       create: "Create my account"
     show:
       welcome: "Welcome to the Sample App!"
+      microposts: "Microposts"
     edit:
       edit: "Edit user"
       save: "Save change"
@@ -123,6 +147,7 @@ en:
       link: "To reset your password click the link below:"
       
       
+
 
 
   
