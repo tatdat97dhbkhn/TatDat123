@@ -1,4 +1,6 @@
 vi:
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
   alert: "Kích thước file < 5MB"
   activerecord:
     attributes:
@@ -29,7 +31,9 @@ vi:
       count_errors: "Có chứa"
       form: "The form contains"
     user_info:
-      my_profile: "Thông tin cá nhân"      
+      my_profile: "Thông tin cá nhân"
+    stats:
+      following: "đang theo dõi"      
   author: "Michael Hartl"
   the: "Cuốn sách"
   by: "được viết bởi"
@@ -84,6 +88,14 @@ vi:
     show:
       welcome: "Chào mừng tới Sample App!"
   users:
+    show_follow:
+      view_my_profile: "thông tin cá nhân"
+      micropost: "Bài đăng:"    
+      follow: "Theo dõi"  
+    follow:
+      follow: "theo dõi"
+    unfollow:
+      unfollow: "bỏ theo dõi"
     create:
       check: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
     new:

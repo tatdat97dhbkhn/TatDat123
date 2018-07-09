@@ -8,3 +8,4 @@ time:
   hours: 2
 micropost:
   max_content: 140
+size: 30
